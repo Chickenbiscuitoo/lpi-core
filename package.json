@@ -1,0 +1,30 @@
+{
+    "name": "webpack-lpi",
+    "version": "1.0.0",
+    "description": "Configuration for LPI webpack",
+    "main": "webpack.config.js",
+    "author": "Chickenbiscuitoo",
+    "license": "ISC",
+    "scripts": {
+        "clean": "rm dist/css dist/js",
+        "build-dev": "webpack --mode development",
+        "build-prod": "webpack --mode production",
+        "watch": "webpack --progress --watch --mode production"
+    },
+    "devDependencies": {
+        "webpack": "^5.88.2",
+    "webpack-cli": "^5.1.4",
+    "babel-loader": "^9.1.3",
+    "@babel/core": "^7.22.9",
+    "@babel/preset-env": "^7.22.9",
+    "typescript": "^5.1.6",
+    "ts-loader": "^9.4.4",
+    "css-loader": "^6.8.1",
+    "sass-loader": "^13.3.2",
+    "node-sass": "^9.0.0",
+    "style-loader": "^3.3.3",
+    "file-loader": "^6.2.0",
+    "url-loader": "^4.1.1",
+    "mini-css-extract-plugin": "^2.7.6"
+    }
+}
