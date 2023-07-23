@@ -27,4 +27,4 @@ require_once(ROOT . "/backend/constants.php");
 require_once(ROOT . '/backend/scripts.php');
 
 // Components
-// require_once(ROOT . '/backend/components/Component.php');
+require_once(ROOT . '/backend/components/Header.php');
