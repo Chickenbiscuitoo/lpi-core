@@ -28,3 +28,4 @@ require_once(ROOT . '/backend/scripts.php');
 
 // Components
 require_once(ROOT . '/backend/components/Header.php');
+require_once(ROOT . '/backend/components/Project.php');
